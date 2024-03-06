@@ -1,14 +1,66 @@
 /* your code here */
- .logo-name{
+ .top{
+	 font-size:2rem;
+	 color:white;
 	 display:flex;
+	 position:relative;
+	 top:20px;
+	 padding:30px;
+	 row-wrap:nowrap;
+	 justify-content:space-between;
+	 align-content:center;
+
  }
+media-icons{
+	
+}
 footer{
 	background-color:black;
 }
-.link-boxes{
-   text-decoration:none;
+.link{
+	display:flex;
+	flex-direction:column;
+    gap:10px;
 }
+a{
+   text-decoration:none;
+	color:white;
+}
+.services{
+	display:flex;
+	flex-direction:column;
+    gap:10px;
+}
+.link-boxes{
+	font-family:Helvetica, sans-serif;
+	display:flex;
+	justify-content:space-evenly;
+	gap:20px;
+	padding:25px
+}
+p{
+	color:white;
+}
+.bottom-details{
+	display:flex;
+	color:rgb(121,121,121);
+	background-color:rgb(44,48,58);
+	padding:12px;
+	justify-content:space-between;
+}
+
+.other {
+	display:flex;
+	flex-direction:column;
+    gap:10px;
+}
+.contact{
+	display:flex;
+	flex-direction:column;
+    gap:10px;
+}
+
 img{
-	height:35px;
-    width:35px;
+	height:40px;
+    width:40px;
 }
